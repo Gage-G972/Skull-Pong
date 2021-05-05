@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Skull Pong </title>
+<script src="https://simplycodingcourses.com/files/simplyjs/simply.js"></script>
+<script>
+function start(){
+sjs.open();
+
+}
+</script>
+</head>
+<body onload="start()">
+<h1> Skull Pong </h1>
+
+<div id="target" style="margin:auto;background:grey;"></div>
+</body>
+</html>
+<html>
+<head>
+<script> 
+var startBtn = new sjs.Button("Play", function(){
+window.location = "pong.html";
+});
+</script>
+</head>
+<body>
+  </html>
+  <script>
+function start(){
+sjs.open();
+var menu_text = new sjs.Text("Skull Pong",35,"Red");
+menu_text.centerH();
+
+var game_text = new sjs.Text("Use the Arrow Keys on your computer to Control the Paddles. Don't let the Ball get by you. 100 points and you win!",28,"#ff0");
+game_text.centerH().offset(20, 40);
+
+
+var startBtn = new sjs.Button("Play", function(){
+window.location = "pong.html";
+});
+
+startBtn.center();
+
+
+var info_text = new sjs.Text("Created By Gage Grommesh",20,"black");
+
+info_text.bottom().centerH();
+
+} //end start
+</script>
+</body>
+
+<script>
+var info_text = new sjs.Text("Created By Gage Grommesh",20,"black");
+
+info_text.bottom().centerH();
+
+//end start
+
+</script>
+</html>
